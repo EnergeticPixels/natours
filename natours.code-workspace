@@ -24,7 +24,9 @@
 		"less.validate": false,
 		"editor.wordWrap": "on",
 
-		"eslint.enable": false
+		"eslint.enable": false,
+
+		"open-in-browser.default": "google-chrome"
 
 		}
 }
