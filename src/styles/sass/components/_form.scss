@@ -11,6 +11,7 @@
     box-shadow: 0 1rem 2rem transparent;
     width: 90%;
     display: block;
+    transition: all .3s;
 
     &::-webkit-input-placeholder {
       color: $color-grey-dark-2;
