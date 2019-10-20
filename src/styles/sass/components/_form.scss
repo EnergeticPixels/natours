@@ -13,6 +13,10 @@
     display: block;
     transition: all .3s;
 
+    @include respond(tab-port) {
+      width: 100%;
+    }
+
     &::-webkit-input-placeholder {
       color: $color-grey-dark-2;
     }
@@ -73,6 +77,11 @@
     position: absolute;
     left: 0;
     top: -.4rem;
+
+    @include respond(tab-port) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
 
     &::after {
       content: "";
